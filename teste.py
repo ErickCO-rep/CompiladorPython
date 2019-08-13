@@ -1,5 +1,5 @@
 arquivo = open("primeiro.txt","r")
+n_linhas = sum(1 for linha in arquivo)
 
-while x != '':
-    linha = arquivo.readline()
-    print (linha)
+for n_linhas in arquivo:
+    print (linha(n_linhas) = arquivo.readline())
