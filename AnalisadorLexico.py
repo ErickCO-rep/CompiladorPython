@@ -1,24 +1,11 @@
 #ler arquivo TXT
-class Texto(object): 
-  def __init__(self, conteudo): 
-    self.__conteudo = conteudo
+arquivo = open('teste.txt', 'r')
 
-  @property 
-  def conteudo(self): 
-    return self.__conteudo
+conteudo = arquivo.readlines()
+arq = str(conteudo).strip('[]')
 
-  @nome.setter 
-  def nome(self, conteudo): 
-    self.__conteudo = conteudo
+print(arq.split(";",2))
 
-  def __repr__(self): 
-    return "%s" % (self.__conteudo)
+#com o split no conteudo do arquivo, deve-se identificar cada token
 
-  def ler_produtos(arquivo):
-    arquivo = 'arquivos/code.txt'
-
-  def ler_produtos(arquivo):
-    arquivo_aberto = open(arquivo, 'rb')
-
-
-
+#Inserir código
