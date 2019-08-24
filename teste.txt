@@ -1,1 +1,8 @@
-AHEOOOOOO;testando;teste2
+//Código
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+	print "Olá mundo";   
+}
